@@ -1,0 +1,18 @@
+{
+  "name": "rediscope-website",
+  "author": "Coral Dabarera Edelson <corald@gmail.com>",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "ioredis": "^5.2.4",
+    "redis": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11"
+  },
+  "homepage": "https://github.com/coraletoile/RediScopeSite.git",
+  "version": "0.1.0"
+}
