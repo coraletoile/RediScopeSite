@@ -2,8 +2,12 @@
   "name": "rediscope-website",
   "author": "Coral Dabarera Edelson <corald@gmail.com>",
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
